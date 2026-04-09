@@ -16,12 +16,12 @@
     <div class="flex flex-col md:flex-row w-full">
 
         <!-- Desktop Sidebar -->
-        <div class="hidden md:flex pl-[18px]  pt-[44px] flex-shrink-0 h-screen w-64  bg-[#f5f5f5]
-                       flex flex-col justify-between items-center mt-5 mb-5 overflow-y-auto">
-            <div class="flex flex-col flex-1">
+        <div class="hidden md:flex pl-[20px]  pt-[44px] flex-shrink-0 h-screen w-64  bg-[#f5f5f5]
+                       flex flex-col justify-between items-center mt-5 mb-5 overflow-y-auto items-start">
+            <div class="flex flex-col flex-1 ">
 
 
-                <div class="flex items-center gap-2 mb-10 pb-3 relative pl-[24px]">
+                <div class="flex items-center gap-2 mb-10 pb-3 relative ">
                     <img src="assets/logo.png" alt="logo" class="w-6 h-6 object-contain ">
                     <span class="font-semibold text-sm">PURITY UI DASHBOARD</span>
                     <div class="absolute bottom-[-10px] left-0 w-full h-[2px] 
@@ -32,38 +32,38 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col flex-1 justify-start space-y-2 pl-[15px]" id="menuDesktop">
+                <div class="flex flex-col flex-1 justify-start space-y-2 " id="menuDesktop">
 
                     <!-- Item -->
-                    <div class="menu-item flex items-center pl-[15px] pt-2 pb-2 rounded-2xl cursor-pointer">
+                    <div class="menu-item flex items-center  pt-2 pb-2 rounded-2xl cursor-pointer">
                         <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full ">
                             <img src="assets/chart.svg" class="w-4 h-4 ">
                         </div>
                         <span class="text-sm ml-3 font-bold text-gray-400">Dashboard</span>
                     </div>
 
-                    <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer">
+                    <div class="menu-item flex items-center pt-2  pb-2 rounded-2xl cursor-pointer">
                         <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
                             <img src="assets/chart.svg" class="w-4 h-4 text-[#4FD1C5]">
                         </div>
                         <span class="text-sm ml-3 font-bold text-gray-400">Tables</span>
                     </div>
 
-                    <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer">
+                    <div class="menu-item flex items-center pt-2  rounded-2xl cursor-pointer">
                         <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
                             <img src="assets/chart.svg" class="w-4 h-4">
                         </div>
                         <span class="text-sm ml-3 font-bold text-gray-400">Billing</span>
                     </div>
 
-                    <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer">
+                    <div class="menu-item flex items-center pt-2  rounded-2xl cursor-pointer">
                         <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
                             <img src="assets/chart.svg" class="w-4 h-4">
                         </div>
                         <span class="text-sm ml-3 font-bold text-gray-400">RTL</span>
                     </div>
 
-                    <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer">
+                    <div class="menu-item flex items-center pt-2  rounded-2xl cursor-pointer">
                         <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
                             <img src="assets/signin.png" class="w-4 h-4">
                         </div>
@@ -199,7 +199,7 @@
             <!-- Dashboard -->
             <div class=" flex flex-col">
                 <!-- section 1 -->
-                <div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 w-auto ml-[28px] mr-[2px] p-5 pt-0 pb-0 mb-[24px]
+                <div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 w-auto ml-[2px] md:ml-[28px] mr-[2px] p-5 pt-0 pb-0 mb-[24px]
                  ">
                     <div
                         class="flex justify-between flex-row gap-5 bg-white pr-[18px] rounded-xl shadow-sm items-center">
@@ -209,8 +209,9 @@
                                     class="text-[#48BB78] font-bold text-[14px]">+55%</span>
                             </div>
                         </div>
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-[#4FD1C5] rounded-lg ">
-                            <img src="assets/chart.svg" class="w-4 h-4 invert brightness-0">
+                        <div
+                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-lg ">
+                            <img src="assets/chart.svg" class="w-[22.5px] h-[22.5px] invert brightness-0">
                         </div>
                     </div>
                     <div
@@ -220,8 +221,9 @@
                             <div class="font-bold text-[18px]">2,300 <span
                                     class="text-[#48BB78] font-bold text-[14px]">+5%</span></div>
                         </div>
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-[#4FD1C5] rounded-lg">
-                            <img src="assets/chart.svg" class="w-4 h-4 invert brightness-0">
+                        <div
+                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-lg">
+                            <img src="assets/chart.svg" class="w-[22.5px] h-[22.5px] invert brightness-0">
                         </div>
                     </div>
                     <div
@@ -231,8 +233,9 @@
                             <div class="font-bold text-[18px]">+3,052 <span
                                     class="text-red-500 font-bold text-[14px]">-14%</span></div>
                         </div>
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-[#4FD1C5] rounded-lg">
-                            <img src="assets/chart.svg" class="w-4 h-4 invert brightness-0">
+                        <div
+                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-lg">
+                            <img src="assets/chart.svg" class="w-[22.5px] h-[22.5px] invert brightness-0">
                         </div>
                     </div>
                     <div
@@ -243,14 +246,15 @@
                                     class="text-[#48BB78] font-bold text-[14px]">+8%</span>
                             </div>
                         </div>
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-[#4FD1C5] rounded-lg">
-                            <img src="assets/chart.svg" class="w-4 h-4 invert brightness-0">
+                        <div
+                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-lg">
+                            <img src="assets/chart.svg" class="w-[22.5px] h-[22.5px] invert brightness-0">
                         </div>
                     </div>
                 </div>
                 <!-- section 2 -->
                 <div
-                    class="grid grid-cols-1 lg:grid-cols-5 gap-6 ml-[28px] mr-[2px] p-5 pt-0 items-stretch pb-0 mb-[24px]">
+                    class="grid grid-cols-1 lg:grid-cols-5 gap-6 ml-[2px] md:ml-[28px] mr-[2px] p-5 pt-0 items-stretch pb-0 mb-[24px]">
 
                     <!-- FIRST CARD -->
                     <div class="lg:col-span-3 flex flex-col sm:flex-row bg-white  rounded-lg shadow-sm w-full h-full">
@@ -303,7 +307,8 @@
 
                 </div>
                 <!-- section3 -->
-                <div class="grid grid-cols-1 xl:grid-cols-3 gap-[25px] ml-[28px] mr-[2px] items-stretch mb-5 p-5 pt-0">
+                <div
+                    class="grid grid-cols-1 xl:grid-cols-3 gap-[25px] ml-[2px] md:ml-[28px] mr-[2px] items-stretch mb-5 p-5 pt-0">
                     <div class="xl:col-span-2 bg-white rounded-lg shadow-sm">
                         <div class="flex items-center justify-between p-4  ">
                             <div class="flex  flex-col  pt-[8px]">
@@ -323,18 +328,18 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="overflow-x-auto w-auto bg-white pl-[22px] pr-[22px] pb-[31px]  rounded-lg ">
-                            <table class="w-full min-w-[500px] sm:min-w-full border-collapse gap-3 box-border">
+                        <div class="overflow-x-auto w-auto bg-white pl-[22px] pr-[22px] pb-[31px] rounded-lg">
+                            <table class="w-full min-w-[640px] sm:min-w-full table-auto border-collapse">
                                 <thead>
-                                    <tr class="border-b-3 border-gray-200">
-                                        <th class="text-[10px] text-gray-400 text-left p-3 pl-0">COMPANIES</th>
-                                        <th class="text-[10px] text-gray-400 text-left p-3">MEMBERS</th>
-                                        <th class="text-[10px] text-gray-400 text-left p-3">BUDGET</th>
-                                        <th class="text-[10px] text-gray-400 text-left p-3 pr-0">COMPLETION</th>
+                                    <tr class="border-b border-gray-200">
+                                        <th class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-3 pr-3 pl-0 whitespace-nowrap">Companies</th>
+                                        <th class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-3 px-3 whitespace-nowrap">Members</th>
+                                        <th class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-3 px-3 whitespace-nowrap">Budget</th>
+                                        <th class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-3 pl-3 pr-0 whitespace-nowrap">Completion</th>
                                     </tr>
                                 </thead>
-                                <tbody class="pt-[19px]">
-                                    <tr class="border-b-3 border-gray-200">
+                                <tbody class="divide-y divide-gray-100">
+                                    <tr class="hover:bg-gray-50/60 transition-colors">
                                         <td class="">
                                             <div class="flex items-center gap-2">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
@@ -344,7 +349,7 @@
                                                     Version</span>
                                             </div>
                                         </td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -358,18 +363,18 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="p-2 font-bold text-gray-700 text-[14px]">$14,000</td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">$14,000</td>
+                                        <td class="py-3 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-bold">60%</span>
-                                                <div class="max-w-[80px] w-auto h-[5px] bg-gray-200 rounded-full">
-                                                    <div class="h-[5px] bg-teal-300 rounded-full" style="width: 60%;">
+                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
+                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 60%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr class="border-b-3 border-gray-200">
+                                    <tr class="hover:bg-gray-50/60 transition-colors">
                                         <td class="">
                                             <div class="flex items-center gap-2">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
@@ -379,7 +384,7 @@
                                                     Track</span>
                                             </div>
                                         </td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -387,18 +392,18 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="p-2 font-bold text-gray-700 text-[14px]">$3,000</td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">$3,000</td>
+                                        <td class="py-3 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300  font-semibold">10%</span>
-                                                <div class="max-w-[80px] w-auto h-[5px] bg-gray-200 rounded-full">
-                                                    <div class="h-[5px] bg-teal-300 rounded-full" style="width: 10%;">
+                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
+                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 10%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr class="border-b-3 border-gray-200">
+                                    <tr class="hover:bg-gray-50/60 transition-colors">
                                         <td class="">
                                             <div class="flex items-center gap-2">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
@@ -408,7 +413,7 @@
                                                     Errors</span>
                                             </div>
                                         </td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -416,18 +421,18 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="p-2 font-bold text-gray-700 text-[14px]">Not Set</td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">Not Set</td>
+                                        <td class="py-3 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-semibold">100%</span>
-                                                <div class="max-w-[80px] w-auto h-[5px] bg-gray-200 rounded-full">
-                                                    <div class="h-[5px] bg-teal-300 rounded-full" style="width: 100%;">
+                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
+                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 100%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr class="border-b-3 border-gray-200">
+                                    <tr class="hover:bg-gray-50/60 transition-colors">
                                         <td class="">
                                             <div class="flex gap-2 items-center ">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
@@ -437,7 +442,7 @@
                                                     App</span>
                                             </div>
                                         </td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -449,18 +454,18 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="p-2 font-bold text-gray-700 text-[14px]">$32,000</td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">$32,000</td>
+                                        <td class="py-3 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-semibold">100%</span>
-                                                <div class="max-w-[80px] w-auto h-[5px] bg-gray-200 rounded-full">
-                                                    <div class="h-[5px] bg-teal-300 rounded-full" style="width: 100%;">
+                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
+                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 100%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr class="border-b-3 border-gray-200">
+                                    <tr class="hover:bg-gray-50/60 transition-colors">
                                         <td class="">
                                             <div class="flex gap-2 items-center ">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
@@ -470,7 +475,7 @@
                                                     Page</span>
                                             </div>
                                         </td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -484,18 +489,18 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="p-2 font-bold text-gray-700 text-[14px]">$400</td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">$400</td>
+                                        <td class="py-3 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-semibold">25%</span>
-                                                <div class="max-w-[80px] w-auto h-[5px] bg-gray-200 rounded-full">
-                                                    <div class="h-[5px] bg-teal-300 rounded-full" style="width: 25%;">
+                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
+                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 25%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr class="border-b-3 border-gray-200">
+                                    <tr class="hover:bg-gray-50/60 transition-colors">
                                         <td class="">
                                             <div class="flex items-center gap-2">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
@@ -505,7 +510,7 @@
                                                     Shop</span>
                                             </div>
                                         </td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-[20px] w-[20px] rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -513,12 +518,12 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="p-2 font-bold text-gray-700 text-[14px]">$7,600</td>
-                                        <td class="p-2">
+                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">$7,600</td>
+                                        <td class="py-3 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-semibold">40%</span>
-                                                <div class="max-w-[80px] w-auto h-[5px] bg-gray-200 rounded-full">
-                                                    <div class="h-[5px] bg-teal-300 rounded-full" style="width: 40%;">
+                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
+                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 40%;">
                                                     </div>
                                                 </div>
                                             </div>
@@ -530,11 +535,11 @@
                     </div>
                     <div class="xl:col-span-1 flex">
 
-                        <div class="w-full 
-                h-48 sm:h-64 lg:h-80 xl:h-full
-                bg-[url('assets/chakraimg.png')] 
-                bg-no-repeat bg-center bg-cover 
-                rounded-lg">
+                        <!-- image panel: full width, no stretch, always visible -->
+                        <div class="w-full bg-white rounded-lg shadow-sm p-3 flex">
+                            <div class="w-full aspect-[16/10] xl:aspect-[4/5] bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center">
+                                <img src="assets/chakraimg.png" alt="Project preview" class="w-full h-full object-contain" loading="lazy">
+                            </div>
                         </div>
 
                     </div>
