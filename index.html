@@ -22,7 +22,7 @@
 
 
                 <div class="flex items-center gap-2 mb-10 pb-3 pl-3 relative ">
-                    <img src="assets/logo.png" alt="logo" class="w-6 h-6 object-contain ">
+                    <img src="assets/logo.png" alt="logo" class="w-[22px] h-[22px] object-contain ">
                     <span class="font-semibold text-sm">PURITY UI DASHBOARD</span>
                     <div class="absolute bottom-[-10px] left-0 w-full h-[2px] 
                 bg-gradient-to-r 
@@ -35,37 +35,72 @@
                 <div class="flex flex-col flex-1 justify-start space-y-2 " id="menuDesktop">
 
                     <!-- Item -->
-                    <div class="menu-item flex items-center  pt-2 pb-2 pl-3 rounded-2xl cursor-pointer">
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full ">
-                            <img src="assets/chart.svg" class="w-4 h-4 ">
+                    <div class="menu-item flex items-center py-2 pl-3 rounded-2xl cursor-pointer bg-white shadow-sm"
+                        data-active="true">
+                        <div
+                            class="icon-box w-[30px] h-[30px] flex items-center justify-center bg-[#4FD1C5] rounded-full">
+                            <svg class="menu-icon w-[15px] h-[15px] text-white" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path d="M3 11.5 12 4l9 7.5V21a1 1 0 0 1-1 1h-6v-6H10v6H4a1 1 0 0 1-1-1v-9.5Z"
+                                    stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
                         </div>
-                        <span class="text-sm ml-3 font-bold text-gray-400">Dashboard</span>
+                        <span class="text-sm ml-3 font-bold text-gray-700">Dashboard</span>
                     </div>
 
-                    <div class="menu-item flex items-center pt-2  pb-2 pl-3 rounded-2xl cursor-pointer">
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                            <img src="assets/chart.svg" class="w-4 h-4 text-[#4FD1C5]">
+                    <div class="menu-item flex items-center py-2 pl-3 rounded-2xl cursor-pointer">
+                        <div
+                            class="icon-box w-[30px] h-[30px] flex items-center justify-center bg-white shadow-sm rounded-full">
+                            <svg class="menu-icon w-[15px] h-[15px] text-[#4FD1C5]" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path d="M4 6h16M4 10h16M4 14h16M4 18h16" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                                <path d="M8 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            </svg>
                         </div>
                         <span class="text-sm ml-3 font-bold text-gray-400">Tables</span>
                     </div>
 
-                    <div class="menu-item flex items-center pt-2 pl-3 rounded-2xl cursor-pointer">
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                            <img src="assets/chart.svg" class="w-4 h-4">
+                    <div class="menu-item flex items-center py-2 pl-3 rounded-2xl cursor-pointer">
+                        <div
+                            class="icon-box w-[30px] h-[30px] flex items-center justify-center bg-white shadow-sm rounded-full">
+                            <svg class="menu-icon w-[15px] h-[15px] text-[#4FD1C5]" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z"
+                                    stroke="currentColor" stroke-width="2" />
+                                <path d="M7 9h10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                <path d="M7 13h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            </svg>
                         </div>
                         <span class="text-sm ml-3 font-bold text-gray-400">Billing</span>
                     </div>
 
-                    <div class="menu-item flex items-center pt-2 pl-3 rounded-2xl cursor-pointer">
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                            <img src="assets/chart.svg" class="w-4 h-4">
+                    <div class="menu-item flex items-center py-2 pl-3 rounded-2xl cursor-pointer">
+                        <div
+                            class="icon-box w-[30px] h-[30px] flex items-center justify-center bg-white shadow-sm rounded-full">
+                            <svg class="menu-icon w-[15px] h-[15px] text-[#4FD1C5]" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path d="M11 8H5v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M7 10 4 13l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M20 8h-6v6h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
                         </div>
                         <span class="text-sm ml-3 font-bold text-gray-400">RTL</span>
                     </div>
 
-                    <div class="menu-item flex items-center pt-2 pl-3 rounded-2xl cursor-pointer">
-                        <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                            <img src="assets/signin.png" class="w-4 h-4">
+                    <div class="menu-item flex items-center py-2 pl-3 rounded-2xl cursor-pointer">
+                        <div
+                            class="icon-box w-[30px] h-[30px] flex items-center justify-center bg-white shadow-sm rounded-full">
+                            <svg class="menu-icon w-[15px] h-[15px] text-[#4FD1C5]" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path d="M20 21a8 8 0 1 0-16 0" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                                <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
                         </div>
                         <span class="text-sm ml-3 font-bold text-gray-400">Profile</span>
                     </div>
@@ -77,13 +112,16 @@
         </div>
 
         <!-- Main Content -->
-        <div class="flex flex-col flex-1 overflow-y-auto mt-[6px]">
+        <div class="flex flex-col flex-1 overflow-y-auto mt-[6px] max-w-[2150px]">
 
             <!-- MOBILE TOP STRIP (Hamburger here) -->
             <div class="flex items-center justify-between p-5 border-b md:hidden mb-[30px]">
                 <div class="flex items-center gap-2">
                     <div class="w-8 h-8 flex items-center justify-center bg-white rounded-lg">
-                        <img src="assets/chart.svg" class="w-4 h-4 ">
+                        <svg class="w-4 h-4 text-[#4FD1C5]" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M3 11.5 12 4l9 7.5V21a1 1 0 0 1-1 1h-6v-6H10v6H4a1 1 0 0 1-1-1v-9.5Z"
+                                stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                     </div>
                     <span class="font-semibold text-sm">DASHBOARD</span>
                 </div>
@@ -104,7 +142,7 @@
                 <div class="flex flex-col flex-1">
 
                     <div class="flex items-center gap-2 mb-10 pb-3 relative pl-[5px]">
-                        <img src="assets/logo.png" alt="logo" class="w-6 h-6 object-contain ">
+                        <img src="assets/logo.png" alt="logo" class="w-[22px] h-[22px] object-contain ">
                         <span class="font-semibold text-sm">PURITY UI DASHBOARD</span>
                         <div class="absolute bottom-[-10px] left-0 w-full h-[2px] 
                 bg-gradient-to-r 
@@ -117,37 +155,68 @@
                     <div class="flex flex-col flex-1 justify-start space-y-2" id="menuMobile">
 
                         <!-- Item -->
-                        <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer ">
-                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                                <img src="assets/chart.svg" class="w-4 h-4 ">
+                        <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer bg-white shadow-sm"
+                            data-active="true">
+                            <div
+                                class="icon-box w-8 h-8 flex items-center justify-center bg-[#4FD1C5] rounded-full">
+                                <svg class="menu-icon w-4 h-4 text-white" viewBox="0 0 24 24" fill="none"
+                                    aria-hidden="true">
+                                    <path d="M3 11.5 12 4l9 7.5V21a1 1 0 0 1-1 1h-6v-6H10v6H4a1 1 0 0 1-1-1v-9.5Z"
+                                        stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                                </svg>
                             </div>
-                            <span class="text-sm ml-3 font-bold text-gray-400">Dashboard</span>
+                            <span class="text-sm ml-3 font-bold text-gray-700">Dashboard</span>
                         </div>
 
                         <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer">
-                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                                <img src="assets/chart.svg" class="w-4 h-4 text-[#4FD1C5]">
+                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white shadow-sm rounded-full">
+                                <svg class="menu-icon w-4 h-4 text-[#4FD1C5]" viewBox="0 0 24 24" fill="none"
+                                    aria-hidden="true">
+                                    <path d="M4 6h16M4 10h16M4 14h16M4 18h16" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" />
+                                    <path d="M8 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
                             </div>
                             <span class="text-sm ml-3 font-bold text-gray-400">Tables</span>
                         </div>
 
                         <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer">
-                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                                <img src="assets/chart.svg" class="w-4 h-4">
+                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white shadow-sm rounded-full">
+                                <svg class="menu-icon w-4 h-4 text-[#4FD1C5]" viewBox="0 0 24 24" fill="none"
+                                    aria-hidden="true">
+                                    <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z"
+                                        stroke="currentColor" stroke-width="2" />
+                                    <path d="M7 9h10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M7 13h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
                             </div>
                             <span class="text-sm ml-3 font-bold text-gray-400">Billing</span>
                         </div>
 
                         <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer">
-                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                                <img src="assets/chart.svg" class="w-4 h-4">
+                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white shadow-sm rounded-full">
+                                <svg class="menu-icon w-4 h-4 text-[#4FD1C5]" viewBox="0 0 24 24" fill="none"
+                                    aria-hidden="true">
+                                    <path d="M11 8H5v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7 10 4 13l3 3" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M20 8h-6v6h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
                             </div>
                             <span class="text-sm ml-3 font-bold text-gray-400">RTL</span>
                         </div>
 
                         <div class="menu-item flex items-center p-2 pl-[15px] rounded-2xl cursor-pointer">
-                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white rounded-full">
-                                <img src="assets/signin.png" class="w-4 h-4">
+                            <div class="icon-box w-8 h-8 flex items-center justify-center bg-white shadow-sm rounded-full">
+                                <svg class="menu-icon w-4 h-4 text-[#4FD1C5]" viewBox="0 0 24 24" fill="none"
+                                    aria-hidden="true">
+                                    <path d="M20 21a8 8 0 1 0-16 0" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" />
+                                    <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
                             </div>
                             <span class="text-sm ml-3 font-bold text-gray-400">Profile</span>
                         </div>
@@ -175,17 +244,17 @@
             </div>
 
             <!-- Desktop Breadcrumb -->
-            <div class="hidden md:flex p-4  mt-[26px] mb-[29px] ml-[64px] mr-[30px] w-auto justify-between">
+            <div
+                class="hidden md:flex p-4  mt-[26px] mb-[29px] ml-[64px] mr-[30px] w-auto justify-between items-start pl-0">
                 <div class="flex flex-col">
-                    <div class="text-xs font-normal"><span class="text-gray-400 font-normal text-xs">Pages </span>/
-                        Dashboard</div>
+                    <div class="text-[12px] font-normal text-gray-700">
+                        <span class="text-gray-400 font-normal">Pages</span> / Dashboard
+                    </div>
                     <div class="font-bold text-gray-700 mt-[5px]">Dashboard</div>
                 </div>
                 <div class="flex items-center justify-between ">
                     <div class="flex items-center gap-2">
-                        <div class="icon-box w-4 h-4 flex items-center justify-center  rounded-lg">
-                            <img src="assets/signin.png" class="w-4 h-4">
-                        </div>
+                        <img src="assets/signin.png" class="w-4 h-4" alt="sign in">
                         <span class="text-sm font-bold text-gray-500">Sign In</span>
                     </div>
 
@@ -197,58 +266,85 @@
             </div>
 
             <!-- Dashboard -->
-            <div class=" flex flex-col">
+            <div class=" flex flex-col ">
                 <!-- section 1 -->
                 <div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 w-auto ml-[2px] md:ml-[28px] mr-[2px] p-5 pt-0 pb-0 mb-[24px]
                  ">
                     <div
-                        class="flex justify-between flex-row gap-5 bg-white pr-[18px] rounded-xl shadow-sm items-center">
-                        <div class="flex flex-col pl-[18px] pt-[17px] pb-[17px]">
+                        class="flex justify-between flex-row gap-5 bg-white px-[18px] py-[17px] rounded-xl shadow-sm items-center">
+                        <div class="flex flex-col leading-tight">
                             <div class="text-gray-400 text-[12px] font-bold">Today's Money</div>
-                            <div class="font-bold text-[18px]">$53,000 <span
+                            <div class="font-bold text-[18px] text-gray-700">$53,000 <span
                                     class="text-[#48BB78] font-bold text-[14px]">+55%</span>
                             </div>
                         </div>
                         <div
-                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-lg ">
-                            <img src="assets/chart.svg" class="w-[22.5px] h-[22.5px] invert brightness-0">
+                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-xl">
+                            <svg class="w-[20px] h-[20px] text-white" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path
+                                    d="M3 7.5A2.5 2.5 0 0 1 5.5 5h13A2.5 2.5 0 0 1 21 7.5v9A2.5 2.5 0 0 1 18.5 19h-13A2.5 2.5 0 0 1 3 16.5v-9Z"
+                                    stroke="currentColor" stroke-width="2" />
+                                <path d="M16 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            </svg>
                         </div>
                     </div>
                     <div
-                        class="flex justify-between flex-row gap-5 bg-white pr-[18px] rounded-xl shadow-sm items-center">
-                        <div class="flex flex-col pl-[18px] pt-[17px] pb-[17px]">
-                            <div class="text-gray-400 text-xs font-bold text-[12px]">Today's Users</div>
-                            <div class="font-bold text-[18px]">2,300 <span
+                        class="flex justify-between flex-row gap-5 bg-white px-[18px] py-[17px] rounded-xl shadow-sm items-center">
+                        <div class="flex flex-col leading-tight">
+                            <div class="text-gray-400 text-[12px] font-bold">Today's Users</div>
+                            <div class="font-bold text-[18px] text-gray-700">2,300 <span
                                     class="text-[#48BB78] font-bold text-[14px]">+5%</span></div>
                         </div>
                         <div
-                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-lg">
-                            <img src="assets/chart.svg" class="w-[22.5px] h-[22.5px] invert brightness-0">
+                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-xl">
+                            <svg class="w-[20px] h-[20px] text-white" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path d="M16 20a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-8 0a6 6 0 1 1 4.472-10.03"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M12 10a4 4 0 1 0-8 0" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
                         </div>
                     </div>
                     <div
-                        class="flex justify-between flex-row gap-5 bg-white pr-[18px] rounded-xl shadow-sm items-center">
-                        <div class="flex flex-col pl-[18px] pt-[17px] pb-[17px]">
-                            <div class="text-gray-400 text-xs font-bold text-[12px]">New Clients</div>
-                            <div class="font-bold text-[18px]">+3,052 <span
+                        class="flex justify-between flex-row gap-5 bg-white px-[18px] py-[17px] rounded-xl shadow-sm items-center">
+                        <div class="flex flex-col leading-tight">
+                            <div class="text-gray-400 text-[12px] font-bold">New Clients</div>
+                            <div class="font-bold text-[18px] text-gray-700">+3,052 <span
                                     class="text-red-500 font-bold text-[14px]">-14%</span></div>
                         </div>
                         <div
-                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-lg">
-                            <img src="assets/chart.svg" class="w-[22.5px] h-[22.5px] invert brightness-0">
+                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-xl">
+                            <svg class="w-[20px] h-[20px] text-white" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M19 8v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                <path d="M22 11h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            </svg>
                         </div>
                     </div>
                     <div
-                        class="flex justify-between flex-row gap-5 bg-white pr-[18px] rounded-xl shadow-sm items-center">
-                        <div class="flex flex-col pl-[18px] pt-[17px] pb-[17px]">
-                            <div class="text-gray-400 text-xs font-bold text-[12px]">Total Sales</div>
-                            <div class="font-bold text-[18px]">$173,000 <span
+                        class="flex justify-between flex-row gap-5 bg-white px-[18px] py-[17px] rounded-xl shadow-sm items-center">
+                        <div class="flex flex-col leading-tight">
+                            <div class="text-gray-400 text-[12px] font-bold">Total Sales</div>
+                            <div class="font-bold text-[18px] text-gray-700">$173,000 <span
                                     class="text-[#48BB78] font-bold text-[14px]">+8%</span>
                             </div>
                         </div>
                         <div
-                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-lg">
-                            <img src="assets/chart.svg" class="w-[22.5px] h-[22.5px] invert brightness-0">
+                            class="icon-box w-[45px] h-[45px] flex items-center justify-center bg-[#4FD1C5] rounded-xl">
+                            <svg class="w-[20px] h-[20px] text-white" viewBox="0 0 24 24" fill="none"
+                                aria-hidden="true">
+                                <path d="M6 7h15l-1.5 8.5a2 2 0 0 1-2 1.5H9a2 2 0 0 1-2-1.5L5 3H2" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M9 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="currentColor" />
+                                <path d="M18 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="currentColor" />
+                            </svg>
                         </div>
                     </div>
                 </div>
@@ -257,50 +353,67 @@
                     class="grid grid-cols-1 lg:grid-cols-5 gap-6 ml-[2px] md:ml-[28px] mr-[2px] p-5 pt-0 items-stretch pb-0 mb-[24px]">
 
                     <!-- FIRST CARD -->
-                    <div class="lg:col-span-3 flex flex-col sm:flex-row bg-white  rounded-lg shadow-sm w-full h-full">
+                    <div class="lg:col-span-3 flex flex-col sm:flex-row bg-white rounded-xl shadow-sm w-full h-full">
 
                         <div class="flex flex-col justify-between w-full pl-[18px] pt-[17px] pb-[17px]">
                             <div>
-                                <div class="text-gray-400 font-bold text-[12px]">Built by developer</div>
+                                <div class="text-gray-400 font-bold text-[12px]">Built by developers</div>
                                 <div class="font-bold text-[18px] text-gray-700">Purity UI Dashboard</div>
                                 <p class="text-[14px] text-gray-400 font-normal max-w-xs">
                                     From colors, cards, typography to complex elements,
                                     you will find the full documentation.
                                 </p>
                             </div>
-                            <div class="font-bold text-[10px] mt-2 text-gray-700">Read more -></div>
+                            <div class="font-bold text-[10px] mt-2 text-gray-700 inline-flex items-center gap-1">
+                                <span>Read more</span>
+                                <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M5 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
                         </div>
 
                         <div class="pr-[18px] pt-[17px] pb-[17px] pl-[18px]">
                             <div class="w-full flex justify-center items-center ">
-                                <img class="max-h-[300px] object-contain" src="assets/chakraimg.png" alt="">
+                                <img class="w-full max-h-[300px] object-cover rounded-xl" src="assets/chakraimg.png"
+                                    alt="">
                             </div>
                         </div>
 
                     </div>
 
                     <!-- SECOND CARD -->
-                    <div class="lg:col-span-2 flex bg-white rounded-lg shadow-sm w-full p-[18px] h-full">
+                    <div class="lg:col-span-2 flex bg-white rounded-xl shadow-sm w-full p-[18px] h-full">
 
-                        <div class="flex flex-col justify-between 
-                    bg-[url('assets/bookyimg.png')] 
-                    bg-cover bg-center 
-                    rounded-lg p-4 w-full h-full pl-[22px] pt-[20px] pb-[20px]">
+                        <div
+                            class="relative flex flex-col justify-between bg-[url('assets/bookyimg.png')] bg-cover bg-center rounded-xl w-full h-full overflow-hidden">
+                            <div
+                                class="absolute inset-0 bg-[linear-gradient(90deg,rgba(21,25,40,0.65)_0%,rgba(21,25,40,0.45)_55%,rgba(21,25,40,0.25)_100%),linear-gradient(0deg,rgba(21,25,40,0.88)_0%,rgba(49,56,96,0.20)_55%,rgba(49,56,96,0)_100%)]">
+                            </div>
 
-                            <div class="">
-                                <div class="font-bold text-[18px] text-white">
-                                    Work with the Rockets
+                            <div
+                                class="relative flex flex-col justify-between rounded-xl p-4 w-full h-full pl-[22px] pt-[20px] pb-[20px]">
+                                <div class="">
+                                    <div class="font-bold text-[18px] text-white">
+                                        Work with the Rockets
+                                    </div>
+                                    <p class="text-[14px] text-white max-w-xs font-normal">
+                                        Wealth creation is an evolutionarily recent positive-sum game.
+                                        It is all about who take the opportunity first.
+                                    </p>
                                 </div>
-                                <p class="text-[14px] text-white max-w-xs font-normal">
-                                    Wealth creation is an evolutionarily recent positive-sum game.
-                                    It is all about who take the opportunity first.
-                                </p>
-                            </div>
 
-                            <div class="font-semibold text-[10px] text-white mt-2">
-                                Read more ->
+                                <div class="font-semibold text-[10px] text-white mt-2 inline-flex items-center gap-1">
+                                    <span>Read more</span>
+                                    <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                        <path d="M5 12h12" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" />
+                                        <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
                             </div>
-
                         </div>
 
                     </div>
@@ -309,7 +422,7 @@
                 <!-- section3 -->
                 <div
                     class="grid grid-cols-1 xl:grid-cols-3 gap-[25px] ml-[2px] md:ml-[28px] mr-[2px] items-stretch mb-5 p-5 pt-0">
-                    <div class="xl:col-span-2 bg-white rounded-lg shadow-sm">
+                    <div class="xl:col-span-2 bg-white rounded-xl shadow-sm">
                         <div class="flex items-center justify-between p-4  ">
                             <div class="flex  flex-col  pt-[8px]">
                                 <div class="font-bold text-gray-700 text-[18px]">Projects</div>
@@ -333,22 +446,22 @@
                                 <thead>
                                     <tr class="border-b border-gray-200">
                                         <th
-                                            class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-3 pr-3 pl-0 whitespace-nowrap">
+                                            class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-4 pr-3 pl-0 whitespace-nowrap">
                                             Companies</th>
                                         <th
-                                            class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-3 px-3 whitespace-nowrap">
+                                            class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-4 px-3 whitespace-nowrap">
                                             Members</th>
                                         <th
-                                            class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-3 px-3 whitespace-nowrap">
+                                            class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-4 px-3 whitespace-nowrap">
                                             Budget</th>
                                         <th
-                                            class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-3 pl-3 pr-0 whitespace-nowrap">
+                                            class="text-[10px] tracking-wider uppercase text-gray-400 text-left py-4 pl-3 pr-0 whitespace-nowrap">
                                             Completion</th>
                                     </tr>
                                 </thead>
-                                <tbody class="divide-y divide-gray-100">
+                                <tbody class="divide-y divide-gray-200">
                                     <tr class="hover:bg-gray-50/60 transition-colors">
-                                        <td class="">
+                                        <td class="py-4 pr-3 pl-0">
                                             <div class="flex items-center gap-2">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
                                                     <img src="assets/Icon.png" class="w-4 h-4 ">
@@ -357,7 +470,7 @@
                                                     Version</span>
                                             </div>
                                         </td>
-                                        <td class="py-3 px-3">
+                                        <td class="py-4 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -371,20 +484,20 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">
+                                        <td class="py-4 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">
                                             $14,000</td>
-                                        <td class="py-3 pl-3 pr-0">
+                                        <td class="py-4 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-bold">60%</span>
-                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
-                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 60%;">
+                                                <div class="w-full max-w-[180px] h-[3px] bg-gray-200 rounded-full">
+                                                    <div class="h-[3px] bg-teal-300 rounded-full" style="width: 60%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="hover:bg-gray-50/60 transition-colors">
-                                        <td class="">
+                                        <td class="py-4 pr-3 pl-0">
                                             <div class="flex items-center gap-2">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
                                                     <img src="assets/Icon.png" class="w-4 h-4 ">
@@ -393,7 +506,7 @@
                                                     Track</span>
                                             </div>
                                         </td>
-                                        <td class="py-3 px-3">
+                                        <td class="py-4 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -401,20 +514,20 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">
+                                        <td class="py-4 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">
                                             $3,000</td>
-                                        <td class="py-3 pl-3 pr-0">
+                                        <td class="py-4 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300  font-semibold">10%</span>
-                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
-                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 10%;">
+                                                <div class="w-full max-w-[180px] h-[3px] bg-gray-200 rounded-full">
+                                                    <div class="h-[3px] bg-teal-300 rounded-full" style="width: 10%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="hover:bg-gray-50/60 transition-colors">
-                                        <td class="">
+                                        <td class="py-4 pr-3 pl-0">
                                             <div class="flex items-center gap-2">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
                                                     <img src="assets/Icon.png" class="w-4 h-4 ">
@@ -423,7 +536,7 @@
                                                     Errors</span>
                                             </div>
                                         </td>
-                                        <td class="py-3 px-3">
+                                        <td class="py-4 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -431,20 +544,20 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">Not
+                                        <td class="py-4 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">Not
                                             Set</td>
-                                        <td class="py-3 pl-3 pr-0">
+                                        <td class="py-4 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-semibold">100%</span>
-                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
-                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 100%;">
+                                                <div class="w-full max-w-[180px] h-[3px] bg-gray-200 rounded-full">
+                                                    <div class="h-[3px] bg-teal-300 rounded-full" style="width: 100%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="hover:bg-gray-50/60 transition-colors">
-                                        <td class="">
+                                        <td class="py-4 pr-3 pl-0">
                                             <div class="flex gap-2 items-center ">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
                                                     <img src="assets/Icon.png" class="w-4 h-4 ">
@@ -453,7 +566,7 @@
                                                     App</span>
                                             </div>
                                         </td>
-                                        <td class="py-3 px-3">
+                                        <td class="py-4 px-3">
                                             <div class=" flex -space-x-2 overflow-hidden">
                                                 <img class="inline-block h-5 w-5 rounded-full ring-2 ring-white"
                                                     src="assets/Avatar 5.png" alt="" />
@@ -465,20 +578,20 @@
                                                     src="assets/Avatar 4.png" alt="" />
                                             </div>
                                         </td>
-                                        <td class="py-3 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">
+                                        <td class="py-4 px-3 font-bold text-gray-700 text-[14px] whitespace-nowrap">
                                             $32,000</td>
-                                        <td class="py-3 pl-3 pr-0">
+                                        <td class="py-4 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-semibold">100%</span>
-                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
-                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 100%;">
+                                                <div class="w-full max-w-[180px] h-[3px] bg-gray-200 rounded-full">
+                                                    <div class="h-[3px] bg-teal-300 rounded-full" style="width: 100%;">
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="hover:bg-gray-50/60 transition-colors">
-                                        <td class="">
+                                        <td class="py-4 pr-3 pl-0">
                                             <div class="flex gap-2 items-center ">
                                                 <div class="w-4 h-4 flex items-center justify-center  rounded-lg">
                                                     <img src="assets/Icon.png" class="w-4 h-4 ">
@@ -506,8 +619,8 @@
                                         <td class="py-3 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-semibold">25%</span>
-                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
-                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 25%;">
+                                                <div class="w-full max-w-[180px] h-[3px] bg-gray-200 rounded-full">
+                                                    <div class="h-[3px] bg-teal-300 rounded-full" style="width: 25%;">
                                                     </div>
                                                 </div>
                                             </div>
@@ -536,8 +649,8 @@
                                         <td class="py-3 pl-3 pr-0">
                                             <div class="flex   flex-col">
                                                 <span class="text-[14px] text-teal-300 font-semibold">40%</span>
-                                                <div class="w-full max-w-[120px] h-[6px] bg-gray-200 rounded-full">
-                                                    <div class="h-[6px] bg-teal-300 rounded-full" style="width: 40%;">
+                                                <div class="w-full max-w-[180px] h-[3px] bg-gray-200 rounded-full">
+                                                    <div class="h-[3px] bg-teal-300 rounded-full" style="width: 40%;">
                                                     </div>
                                                 </div>
                                             </div>
@@ -547,16 +660,11 @@
                             </table>
                         </div>
                     </div>
-                    <div class="xl:col-span-1 flex">
+                    <div class="xl:col-span-1">
 
                         <!-- image panel: full width, no stretch, always visible -->
-                        <div class="w-full bg-white rounded-lg shadow-sm p-3 flex">
-                            <div
-                                class="w-full aspect-[16/10] xl:aspect-[4/5] bg-white rounded-lg overflow-hidden flex items-center justify-center">
-                                <img src="assets/chakraimg.png" alt="Project preview"
-                                    class="w-full h-full object-contain" loading="lazy">
-                            </div>
-                        </div>
+                        <img src="assets/chakraimg.png" alt="Project preview" class="block w-full h-auto"
+                            loading="lazy">
 
                     </div>
                 </div>
@@ -582,37 +690,60 @@
 
         const menuItems = document.querySelectorAll(".menu-item");
 
-        let activeItem = null;
+        let activeItem = document.querySelector('#menuDesktop .menu-item[data-active="true"]')
+            || document.querySelector('#menuMobile .menu-item[data-active="true"]')
+            || null;
+
+        function setItemActiveStyles(item) {
+            item.classList.add("bg-white", "shadow-sm");
+
+            const iconBox = item.querySelector(".icon-box");
+            if (iconBox) {
+                iconBox.classList.remove("bg-white");
+                iconBox.classList.add("bg-[#4FD1C5]");
+            }
+
+            const icon = item.querySelector(".menu-icon");
+            if (icon) {
+                icon.classList.add("text-white");
+                icon.classList.remove("text-[#4FD1C5]");
+            }
+
+            const span = item.querySelector("span");
+            if (span) {
+                span.classList.add("text-gray-700");
+                span.classList.remove("text-gray-400");
+            }
+        }
+
+        function setItemInactiveStyles(item) {
+            item.classList.remove("bg-white", "shadow-sm");
+
+            const iconBox = item.querySelector(".icon-box");
+            if (iconBox) {
+                iconBox.classList.remove("bg-[#4FD1C5]");
+                iconBox.classList.add("bg-white");
+            }
+
+            const icon = item.querySelector(".menu-icon");
+            if (icon) {
+                icon.classList.remove("text-white");
+                icon.classList.add("text-[#4FD1C5]");
+            }
+
+            const span = item.querySelector("span");
+            if (span) {
+                span.classList.remove("text-gray-700");
+                span.classList.add("text-gray-400");
+            }
+        }
+
+        if (activeItem) setItemActiveStyles(activeItem);
 
         menuItems.forEach(item => {
             item.addEventListener("click", () => {
-                if (activeItem) {
-                    activeItem.classList.remove("bg-white", "shadow-sm");
-
-                    const prevBox = activeItem.querySelector(".icon-box");
-                    prevBox.classList.remove("bg-[#4FD1C5]");
-                    prevBox.classList.add("bg-white");
-
-                    const prevImg = activeItem.querySelector("img");
-                    prevImg.classList.remove("invert", "brightness-0");
-
-                    const prevSpan = activeItem.querySelector("span")
-                    prevSpan.classList.remove("text-gray-700")
-                    prevSpan.classList.add("text-gray-400")
-                }
-
-                item.classList.add("bg-white", "shadow-sm");
-
-                const iconBox = item.querySelector(".icon-box");
-                iconBox.classList.remove("bg-white");
-                iconBox.classList.add("bg-[#4FD1C5]");
-
-                const img = item.querySelector("img");
-                img.classList.add("invert", "brightness-0");
-
-                const span = item.querySelector("span")
-                span.classList.add("text-gray-700")
-                span.classList.remove("text-gray-400")
+                if (activeItem) setItemInactiveStyles(activeItem);
+                setItemActiveStyles(item);
 
                 activeItem = item;
 
